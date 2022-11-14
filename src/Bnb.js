@@ -1,12 +1,12 @@
 
-import React, {useState} from "react"
+import React from "react"
 import "./index.css"
 import Modal from "./Modal.js"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
 export default function Bnb(){
-    const [openModal, setOpenModal] = useState(false)
+    const [openModal, setOpenModal] = React.useState(false)
     return (
         <div>
             {openModal && <Modal closeModal={setOpenModal} />}
