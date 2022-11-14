@@ -15,7 +15,7 @@ export default function Modal({closeModal}){
                         </div>  
                         <div className="walletConnect">
                             <img alt="" src="images/image_20.png" className="walletConnectImg"/>
-                            <span>WalletConnect</span><i class="arrowRight"></i>
+                            <span>WalletConnect</span><i  class="arrowRight walletArrow"></i>
                         </div>
                     </div>
                 </div>
