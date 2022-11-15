@@ -1,12 +1,10 @@
 
-body{margin: 0; padding: 0;}
 .parent{
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0; padding: 0;
 }
 .upperHalf{
   margin-top: 20px;
@@ -196,7 +194,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 817px;
+  width: 56%;
   height: 50px;
   font-family: 'Red Rose';
   font-style: normal;
@@ -561,15 +559,24 @@ footer{
     height: auto;
   }
   #header4_text{ height: auto;}
+  #header2_text{font-size: 28px; width: 80%;}
+  #container3_main1>h3{
+    font-weight: 600;
+    font-size: 32px;
+    width: 300px;
+  }
+  #nft_logo{
+    height: 300px;
+    width: 360px;
+  }
 }
 
 @media all and (max-width: 768px) {
   nav{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
   .navbar{padding-inline-start: 0;}
-  #conatiner3_main{display: grid;}
   #images_desert{
     grid-template-columns: 1fr 1fr;
   }
@@ -584,16 +591,20 @@ footer{
   #container3_main1>h3{
     font-weight: 600;
     font-size: 32px;
-    width: 250px;
+    width: 200px;
+  }
+  #nft_logo{
+    height: 250px;
+    width: 280px;
   }
   #main1_note{
-    width: 315px;
+    width: 200px;
     line-height: 25px;
   }
   .heading{
     width: 100%;
   }
-  #header2_text{font-size: 32px;}
+  #header2_text{font-size: 24px; width: 80%;}
   .mbtoken{
     width: 120px;
     font-weight: 400;
@@ -641,6 +652,7 @@ footer{
     margin-top: 120px;
     font-size: 16px;
   }
+  #conatiner3_main{flex-direction: column; align-items: center;}
   #container3_main1>h3{
     width: 280px;
     font-weight: 600;
@@ -657,12 +669,12 @@ footer{
   .heading{
     width: 100%;
   }
-  #header2_text{font-size: 18px;}
+  #header2_text{font-size: 12px; width: 80%;}
   .mbtoken{
     font-weight: 400;
     font-size: 24px;
     gap: 6px;
-    margin: 0;
+    margin-left: -15px;
   }
   .metamask{ gap: 6px;}
   .opensea{
