@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Modal from "./Modal"
 
-export default function PlaceToStay(){
+const PlaceToStay = () => {
     const [openModal, setOpenModal] = React.useState(false)
     return(
         <div>
@@ -258,3 +258,4 @@ export default function PlaceToStay(){
         </div>
     )
 }
+export default PlaceToStay
