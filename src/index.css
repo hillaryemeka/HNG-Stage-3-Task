@@ -1,10 +1,12 @@
 
+body{margin: 0; padding: 0;}
 .parent{
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0; padding: 0;
 }
 .upperHalf{
   margin-top: 20px;
@@ -143,7 +145,7 @@ a{
   height: 50px;
   display: flex;
   align-items: center;
-  font-family: 'AirbnbCereal_W_Bd';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -161,6 +163,8 @@ a{
   align-items: center;
   gap: 12px;
 }
+#metaimg1{width: 37px; height: 37px;}
+#metaimg2{width: 164px; height: 22px;}
 .opensea{
   width: 198px;
   height: 40px;
@@ -564,16 +568,23 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
   }
+  .navbar{padding-inline-start: 0;}
   #conatiner3_main{display: grid;}
   #images_desert{
     grid-template-columns: 1fr 1fr;
   }
+  #imgs{width: 184px; height: 126px;}
   #container3_main1{
     margin-top: 120px;
   }
+  #metaimg1{width: 35px; height: 35px;}
+  #metaimg2{width: 104px; height: 20px;}
+  #mbtokenImg{width: 40px; height: 40px;}
+  #openseaImg{width: 33px; height: 35px;}
   #container3_main1>h3{
     font-weight: 600;
-    font-size: 36px;
+    font-size: 32px;
+    width: 250px;
   }
   #main1_note{
     width: 315px;
@@ -615,6 +626,7 @@ footer{
   .arrowRight{ margin-left: 40%;}
   .metamaskArrow{margin-left: 45.5%;}
   .modalHead{gap: 42%;}
+  footer{flex-direction: column;}
 }
 
 @media all and (max-width: 480px) {

@@ -42,9 +42,9 @@ export default function Bnb(){
                 </div>
             <div className="linksContainer">
                 <div className="linksDiv">
-                    <div className="mbtoken"><img src="images/image_15.png" alt=""/>MBToken</div>
-                    <div className="metamask"><img src="images/image_16.png" alt=""/><img alt="" src="images/image_17.png"/></div>
-                    <div className="opensea"><img alt="" src="images/image_18.png"/>OpenSea </div>
+                    <div className="mbtoken"><img id="mbtokenImg" src="images/image_15.png" alt=""/>MBToken</div>
+                    <div className="metamask"><img id="metaimg1" src="images/image_16.png" alt=""/><img id="metaimg2" alt="" src="images/image_17.png"/></div>
+                    <div className="opensea"><img id="openseaImg" alt="" src="images/image_18.png"/>OpenSea </div>
                 </div>
             </div>
             <div id="container2">
