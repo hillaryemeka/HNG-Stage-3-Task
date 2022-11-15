@@ -27,7 +27,7 @@ const PlaceToStay = () => {
             </div>
             <div id="container2">
                 <div id="images_desert">
-                    <div id="desert1_con">
+                    <div id="desert_con">
                         <img src="images/image_06.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -41,7 +41,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>            
-                    <div id="desert2_con">
+                    <div id="desert_con">
                         <img src="images/image_07.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -55,7 +55,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert3_con">
+                    <div id="desert_con">
                         <img src="images/image_08.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -69,7 +69,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert4_con">
+                    <div id="desert_con">
                         <img src="images/image_09.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -83,7 +83,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert5_con">
+                    <div id="desert_con">
                         <img src="images/image_10.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -97,7 +97,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_11.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -111,7 +111,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_12.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -125,7 +125,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_13.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -139,7 +139,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>
-                    <div id="desert1_con">
+                    <div id="desert_con">
                         <img src="images/image_25.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -153,7 +153,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>            
-                    <div id="desert2_con">
+                    <div id="desert_con">
                         <img src="images/image_26.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -167,7 +167,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert3_con">
+                    <div id="desert_con">
                         <img src="images/image_27.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -181,7 +181,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert4_con">
+                    <div id="desert_con">
                         <img src="images/image_28.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -195,7 +195,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert5_con">
+                    <div id="desert_con">
                         <img src="images/image_29.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -209,7 +209,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>  
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_30.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -223,7 +223,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_31.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">
@@ -237,7 +237,7 @@ const PlaceToStay = () => {
                             <div id="d3"><img src="images/image_19.png" alt=""></img></div>
                         </div>
                     </div>
-                    <div id="desert6_con">
+                    <div id="desert_con">
                         <img src="images/image_32.png" alt="" id="desert_img"></img>
                         <div id="desert-img_details">
                             <div id="d1">

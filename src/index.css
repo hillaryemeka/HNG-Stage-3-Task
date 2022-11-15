@@ -57,7 +57,10 @@ a{
 .headingDiv{
   width: 84%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 99px;
+  max-width: 1240px;
 }
 .heading{
   width: 63%;
@@ -118,8 +121,15 @@ a{
   font-size: 14px;
   line-height: 130%;
   color: #B8B8B8;
+  padding-left: 20px;
 }
-.headingImgs{ width: 37%; display: flex; gap: 8px;}
+.headingImgs{ 
+  width: 37%; 
+  display: flex; 
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
 .imgs{width: 234px; height: 176px;}
 .Imgs1{margin-top: 99px;}
 .Imgs2{margin-bottom: 99px;}
@@ -194,7 +204,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 56%;
+  width: 80%;
   height: 50px;
   font-family: 'Red Rose';
   font-style: normal;
@@ -207,6 +217,7 @@ a{
 #desert_img{
   height: 265px;
   width: 260px;
+  
 }
 #images_desert{
   display: grid;
@@ -218,6 +229,13 @@ a{
 #desert-img_details{
   display: flex;
   flex-direction: column;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  gap: 10px;
 }
 #d1{
   display: flex;
@@ -226,6 +244,7 @@ a{
 #d2{
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 #container3{
   width: 100%;
@@ -284,14 +303,22 @@ footer{
   background: #1D1D1E;
   color: #FFFFFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.innerFooter{
+  width: 84%;
+  max-width: 1240px;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 12%;
 }
 #foot1{
   display: flex;
   flex-direction: column;
-  margin-left: 50px;  
+   width: 52%;
 }
 #foot1_meta{
   display: flex;
@@ -317,7 +344,6 @@ footer{
   width: 48%;
   height: 169px;
   display: flex;
-  margin-right: 261px;
   justify-content: space-between;
 }
 #community{
@@ -361,14 +387,19 @@ footer{
   background: white;
   border-radius: 16px;
 }
-.modalHead{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 64%;
+.modalHeadCont{
   width: 100%;
   height: 78px;
   border-bottom: 1px solid #CFD8DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalHead{
+  width: 89%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 700;
@@ -471,6 +502,7 @@ footer{
   list-style: none;
   align-items: center;
   gap: 65px;  
+  max-width: 1240px;
 }
 #ul_items4{
   list-style: none;
@@ -509,6 +541,19 @@ footer{
   place-items: center;
   gap: 24px;
   margin-top: 76px;  
+}
+#desert_con{
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+#desert_img{
+  margin: 16px 16px 0px 16px;
+  height: 265px;
+  width: 260px;
 }
 
 @media all and (max-width: 1200px) {
@@ -576,6 +621,9 @@ footer{
     display: flex;
     flex-direction: column;
   }
+  #header_location{
+    width: 80%;
+  }
   .navbar{padding-inline-start: 0;}
   #images_desert{
     grid-template-columns: 1fr 1fr;
@@ -637,7 +685,21 @@ footer{
   .arrowRight{ margin-left: 40%;}
   .metamaskArrow{margin-left: 45.5%;}
   .modalHead{gap: 42%;}
-  footer{flex-direction: column;}
+  .innerFooter{flex-direction: column;}
+  #conatiner3_main{flex-direction: column; align-items: center;}
+  #container3_main1{
+    margin-top: 120px;
+    font-size: 16px;
+  }
+  #container3_main1>h3{
+    width: 280px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  #main1_note{
+    width: 280px;
+    line-height: 20px;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -648,20 +710,6 @@ footer{
   #images_desert{ grid-template-columns: 1fr;}
   .linksContainer{height: auto;}
   .linksDiv{flex-direction: column; height: auto; gap: 20px; align-items: center; justify-content: center;}
-  #container3_main1{
-    margin-top: 120px;
-    font-size: 16px;
-  }
-  #conatiner3_main{flex-direction: column; align-items: center;}
-  #container3_main1>h3{
-    width: 280px;
-    font-weight: 600;
-    font-size: 24px;
-  }
-  #main1_note{
-    width: 280px;
-    line-height: 20px;
-  }
   #nft_logo{
     height: 250px;
     width: 280px;
@@ -685,7 +733,6 @@ footer{
   .linksDiv{
     width: 100%;
   }
-  footer{flex-direction: column;}
   #foot1_meta{
     display: flex;
     margin-top: 58px;
@@ -699,9 +746,19 @@ footer{
     grid-template-columns: 1fr 1fr;
     height: auto;
   }
+  .navbar{flex-direction: column;}
   #header4_text{ flex-direction: column; height: auto;}
   .modal{width: 310px;}
   .walletArrow{ margin-left: 12%;}
   .metamaskArrow{margin-left: 23%;}
   .modalHead{gap: 30%;}
+  .walletBtn{width: 80%;}
+  .upperHalf{gap: 100px};
+  #header4_text{
+    margin-top: 107px;
+  }
+  .modalHead{
+    font-weight: 600;
+    font-size: 16px;
+  }
 }

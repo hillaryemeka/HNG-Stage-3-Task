@@ -3,7 +3,8 @@ import React from "react";
 
 export default function Footer(){
     return(
-        <footer>
+    <footer>
+        <div className="innerFooter">
         <div id="foot1">
             <div id="foot1_meta">
                 <img src="images/image_21.png" alt=""></img>
@@ -47,6 +48,7 @@ export default function Footer(){
                     <li>Conatct us</li>
                 </ul>                    
             </div>
+        </div>
         </div>
     </footer>
     )
